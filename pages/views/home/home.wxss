@@ -1,0 +1,29 @@
+/* pages/views/home/home.wxss */
+.scroll{
+	height: 100vh;
+}
+.header{
+	width: 100%;
+	height: 600rpx;
+	background-color: #ffe;
+	border-bottom: 10rpx solid #eee
+}
+
+.goodsList{
+	width: 100%;
+}
+.icon{
+	position:fixed;
+	right: 40rpx;
+	bottom:20rpx;
+	width:100rpx;
+	height:100rpx;
+}
+.uiTabbar{
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+.uiTabbar1{
+	display: none;
+}

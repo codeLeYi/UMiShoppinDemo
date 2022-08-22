@@ -1,0 +1,6 @@
+<!--components/content/swiper/swiper.wxml-->
+<swiper class="swiper" indicator-dots="true" autoplay="true,1000" 	duration="700" circular="true">
+		<swiper-item class="content" wx:for="{{ bannerList }}" wx:key="index">
+					<image class="image" bindtap="swiperLink" data-index="{{index}}" src="{{ item.image }}">	</image>
+		</swiper-item>
+</swiper>

@@ -1,0 +1,5 @@
+{
+	"usingComponents": {
+		"categorylist":"../../../components/common/category/categorylist/categorylist"
+	}
+}

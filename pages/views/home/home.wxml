@@ -1,0 +1,29 @@
+<!--pages/views/home/home.wxml-->
+<tab-control  class="{{ tabbarisShow === true ? 'uiTabbar' : 'uiTabbar1' }}" currentIndex="{{ currentIndex }}" bind:syncIndex="syncIndex" titles="{{ titles }}"></tab-control>
+<scroll-view  class="scroll" 
+scroll-top="{{topNum}}"
+bindscroll="onPageScroll"
+refresher-enabled="true"
+bindrefresherrefresh="torefresh"
+refresher-triggered="{{ isPull }}"
+lower-threshold="100"
+bindscrolltolower="scrolltolower"
+scroll-y="true">
+	<view class="header">
+	<!-- 轮播图区域 -->
+		<swiper-image bannerList="{{ bannerList }}"></swiper-image>
+		<recommend recommends="{{ recommends }}"></recommend>
+	</view>
+	<!-- 商品列表区域 -->
+	<view  class="goodsList">
+		<tab-control currentIndex="{{ currentIndex }}" bind:syncIndex="syncIndex" titles="{{ titles }}"></tab-control>
+		<good-list goods="{{ goodlist }}"></good-list>
+	</view>
+</scroll-view>
+<!-- 回到顶部 -->
+<image
+		bindtap="backtop"
+		class="{{ backtop===true? 'icon' : '' }}"
+		src="../../assets/images/home/top.png"
+		mode="scaleToFill"
+/>

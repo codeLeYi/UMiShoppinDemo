@@ -1,0 +1,8 @@
+<!--components/common/category/categorylist/categorylist.wxml-->
+<view class="content-left" >
+		<view class="item" wx:for="{{ list }}" wx:key="index" bindtap="itemClick" data-index="{{ index }}">
+			<text class="itemtitle">
+				{{ item.title }}
+			</text>
+		</view>
+</view>

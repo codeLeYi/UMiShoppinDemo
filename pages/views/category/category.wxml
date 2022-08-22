@@ -1,0 +1,4 @@
+
+<view class="cartgory-left">
+	<categorylist list="{{ categorylist }}" bind:catecoryIndex="catecoryIndex"></categorylist>
+</view>

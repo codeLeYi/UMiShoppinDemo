@@ -1,0 +1,10 @@
+{
+	"usingComponents": {
+		"swiper-image":"../../../components/content/swiper/swiper",
+		"recommend":"../../../components/content/recommend/recommend",
+		"tab-control":"../../../components/common/tab-control/tab-control",
+		"good-list":"../../../components/content/goods/goodslist/goodslist"
+	},
+	"enablePullDownRefresh":true
+
+}

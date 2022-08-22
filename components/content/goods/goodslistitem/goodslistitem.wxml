@@ -1,0 +1,9 @@
+<!--components/content/goods/goodslistitem/goodslistitem.wxml-->
+<view class="item" bindtap="itemClick" data-id="{{ goodsitem.iid? goodsitem.iid : goodsitem.item_id }}">
+	<image class="itemimg" mode="scaleToFill" src="{{ goodsitem.show.img? goodsitem.show.img :  goodsitem.image  }}"></image>
+	<view class="goodsinfo">
+		<view class="title">{{goodsitem.title}}</view>
+		<text class="mach">￥{{goodsitem.price}}</text>
+		<text class="cfav">★{{goodsitem.cfav}}</text>
+	</view>
+</view>

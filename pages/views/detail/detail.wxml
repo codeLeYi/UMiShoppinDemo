@@ -1,0 +1,21 @@
+<!--pages/views/detail/detail.wxml-->
+	<scroll-view class="detail-scroll" scroll-into-view="{{bottomId}}"
+		scroll-y="true"
+		bindscroll="onPageScroll"
+		scroll-top="{{topNum}}"
+	>
+	<nav-bar bind:syncInfoIndex="syncInfoIndex" currentIndex="{{ currentIndex }}" class="tabbar {{ backtop === true? '' : 'hidden' }}"></nav-bar>
+	<de-swiper class="scroll"  id="shopp" bannerList="{{ topImages }}"></de-swiper>
+	<detail-base-info goods="{{ goods }}"></detail-base-info>
+	<detail-shop-info shop="{{ shop }}"></detail-shop-info>
+	<detail-goods-info detail-info="{{detailInfo}}"></detail-goods-info>
+	<detail-param-info class="scroll" id="param" param-info="{{paramInfo}}"></detail-param-info>
+	<detail-commen-info class="scroll" id="comment" commentInfo="{{commentInfo}}"></detail-commen-info>
+	<good-list id="recommend" class="scroll" goods="{{recommends}}"></good-list>
+	</scroll-view>
+	<image
+		bindtap="backTop"
+		class="{{ backtop===true? 'icon' : '' }}"
+		src="../../assets/images/home/top.png"
+		mode="scaleToFill"
+/>

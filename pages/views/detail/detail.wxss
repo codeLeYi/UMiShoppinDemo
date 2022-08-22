@@ -1,0 +1,19 @@
+/* pages/views/detail/detail.wxss */
+.detail-scroll{
+	height: 100vh;
+}
+.tabbar{
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+.hidden{
+	display: none;
+}
+.icon{
+	position:fixed;
+	right: 40rpx;
+	bottom:20rpx;
+	width:100rpx;
+	height:100rpx;
+}

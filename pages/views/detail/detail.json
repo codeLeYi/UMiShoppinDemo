@@ -1,0 +1,12 @@
+{
+	"usingComponents": {
+		"nav-bar":"../../../components/common/nav-bar/navbar",
+		"de-swiper":"../../../components/content/detail/deswiper/deswiper",
+		"detail-base-info":"../../../components/content/detail/detail-base-info/detail-base-info",
+		"detail-shop-info":"../../../components/content/detail/detail-shop-info/detail-shop-info",
+		"detail-goods-info":"../../../components/content/detail/detail-goods-info/detail-goods-info",
+		"detail-param-info":"../../../components/content/detail/detail-param-info/detail-param-info",
+		"detail-commen-info":"../../../components/content/detail/detail-commen-info/detail-commen-info",
+		"good-list":"../../../components/content/goods/goodslist/goodslist"
+	}
+}

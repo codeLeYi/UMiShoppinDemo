@@ -1,0 +1,157 @@
+/* components/content/detail/detail-shop-info/detail-shop-info.wxss */
+.shop-info {
+	padding: 0 8px;
+	border-bottom: 5px solid #f2f5f8;
+}
+.shop-toshoop{
+	display: flex;
+	width: 100%;
+	height: 150rpx;
+}
+.toshoop-info{
+	display: flex;
+	flex-direction: row;
+	height: 150rpx;
+	width: 50%;
+}
+.infoitem{
+	position: relative;
+	text-align: center;
+	flex: 1;
+}
+.infoitem .itemimg{
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	width: 60rpx;
+	height: 60rpx;
+}
+.infoitem .itemspan{
+	position: absolute;
+	bottom: 0;
+	left: 30%;
+	margin: 0;
+	padding: 0;
+}
+.shop-toshoop .shopbutton{
+	width: 50%;
+	height: 150rpx;
+	background-color: red;
+	display: flex;
+}
+.shopbutton .shoppcat{
+	width: 50%;
+	height: 150rpx;
+	text-align: center;
+	line-height: 150rpx;
+	background-color: #ffe817;
+	color: #333;
+}
+.shopbutton .pay{
+	width: 50%;
+	height: 150rpx;
+	line-height: 150rpx;
+	text-align: center;
+	background-color: #f69;
+}
+
+
+.shop-top {
+	line-height: 45px;
+	/* 让元素垂直中心对齐 */
+	display: flex;
+	align-items: center;
+}
+
+.shop-top .itemimg {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: 1px solid rgba(0,0,0,.1);
+}
+
+.shop-top .title {
+	margin-left: 10px;
+	vertical-align: center;
+}
+
+.shop-middle {
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.shop-middle-item {
+	flex: 1;
+}
+
+.shop-middle-left {
+	display: flex;
+	justify-content: space-evenly;
+	color: #333;
+	text-align: center;
+	border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.sells-count, .goods-count {
+	font-size: 18px;
+}
+
+.sells-text, .goods-text {
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+.shop-middle-right {
+	justify-content: space-evenly;
+	display: flex;
+	flex-direction: row;
+	font-size: 13px;
+	color: #333;
+	text-align: center;
+}
+
+ .shop-middle-right .tableft {
+	 flex: 1;
+	 display: flex;
+	 flex-direction: column;
+	width: 120rpx;
+	margin-left: 30rpx;
+
+}
+.shop-middle-right .center{
+	flex: 1;
+	display: flex;
+	 flex-direction: column;
+}
+.shop-middle-right .tableright{
+		flex: 1;
+		display: flex;
+	  flex-direction: column;
+  	width: 120rpx;
+}
+
+.shop-middle-right .text-margin{
+	margin-top: 20rpx;
+}
+.shop-middle-right .font-red{
+	color: red;
+}
+.shop-middle-right .font-green{
+	color: green;
+}
+.shop-bottom {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.enter-shop {
+	display: inline-block;
+	font-size: 14px;
+	background-color: #f2f5f8;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 10px;
+}

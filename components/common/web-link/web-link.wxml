@@ -1,0 +1,2 @@
+<!--components/content/recommendlink/recommendlink.wxml-->
+<web-view src="{{ link }}"></web-view>

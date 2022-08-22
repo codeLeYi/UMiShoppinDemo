@@ -1,0 +1,8 @@
+<!--components/common/tab-control/tab-control.wxml-->
+<view class="content">
+	<view class="uibtn {{index === currentIndex ? 'active' : ''}}" type="default" wx:for="{{ titles }}" wx:key="index"
+		bindtap="itemClick" data-index="{{index}}"
+	>
+		<text class="span">{{ item }}</text>
+	</view>
+</view>

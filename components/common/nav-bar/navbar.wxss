@@ -1,0 +1,22 @@
+/* components/common/nav-bar/navbar.wxss */
+
+.content{
+	display: flex;
+	width: 100%;
+	background-color:white;
+	text-align: center;
+	height: 80rpx;
+	line-height: 80rpx;
+	background-color: rgba(247,241,241, 0.5);
+}
+.uibtn{
+	width: 150rpx;
+	flex: 1;
+}
+.span{
+	padding: 10rpx;
+	
+}
+.active .span{
+	border-bottom: 6rpx solid #f40;
+}

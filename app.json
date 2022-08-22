@@ -1,0 +1,49 @@
+{
+	"pages": [
+		"pages/views/home/home",
+		"pages/views/category/category",
+		"pages/views/cart/cart",
+		"pages/views/profile/profile",
+		"components/common/web-link/web-link",
+		"pages/views/detail/detail"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#f40",
+		"navigationBarTitleText": "myShopping",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"position": "bottom",
+		"backgroundColor": "#efefef",
+		"selectedColor": "#f40",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/views/home/home",
+				"text": "首页",
+				"iconPath": "pages/assets/images/tabBar/home.png",
+				"selectedIconPath": "pages/assets/images/tabBar/home_active.png"
+			},
+			{
+				"pagePath": "pages/views/category/category",
+				"text": "分类",
+				"iconPath": "pages/assets/images/tabBar/others.png",
+				"selectedIconPath": "pages/assets/images/tabBar/others_active.png"
+			},
+			{
+				"pagePath": "pages/views/cart/cart",
+				"text": "购物车",
+				"iconPath": "pages/assets/images/tabBar/shoppings.png",
+				"selectedIconPath": "pages/assets/images/tabBar/shoppings_active.png"
+			},
+			{
+				"pagePath": "pages/views/profile/profile",
+				"text": "我的",
+				"iconPath": "pages/assets/images/tabBar/my.png",
+				"selectedIconPath": "pages/assets/images/tabBar/my_active.png"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,20 @@
+/* components/common/tab-control/tab-control.wxss */
+.content{
+	display: flex;
+	width: 100%;
+	background-color:white;
+	text-align: center;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.uibtn{
+	width: 150rpx;
+	flex: 1;
+}
+.span{
+	padding: 10rpx;
+	
+}
+.active .span{
+	border-bottom: 6rpx solid #ff5777;
+}

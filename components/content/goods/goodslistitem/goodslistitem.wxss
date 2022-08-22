@@ -1,0 +1,19 @@
+/* components/content/goods/goodslistitem/goodslistitem.wxss */
+.itemimg{
+	border-radius: 10rpx;
+	width: 100%;
+}
+
+.goodsinfo{
+	text-align: center;
+}
+.title{
+	overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 6rpx;
+}
+.mach{
+  color: red;
+	margin-right: 20rpx;
+} 

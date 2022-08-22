@@ -1,0 +1,6 @@
+<!--components/content/recommend/recommend.wxml-->
+<view class='content'>
+	<view class="itemimg" wx:for="{{ recommends }}" wx:key="index">
+		<image class="image" bindtap="getRecommend" data-index="{{ index }}" src="{{ item.image }}"></image>
+	</view>
+</view>

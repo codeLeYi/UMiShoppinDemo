@@ -1,0 +1,20 @@
+<!--components/content/detail/detail-param-info/detail-param-info.wxml-->
+<view class="param-info">
+
+	<view  wx:for="{{paramInfo.sizes}}" class="info-size table" wx:key="index">
+		<view class="tr" wx:for="{{item}}" wx:key="indey">
+			<view class="td" wx:for="{{item}}" wx:key="indez">{{item}}</view>
+		</view>
+	</view>
+
+	<view class="info-param table" >
+		<view wx:for="{{paramInfo.infos}}" wx:key="index" class="tr">
+			<view class="info-param-key td">{{item.key}}</view>
+			<view class="param-value td">{{item.value}}</view>
+		</view>
+	</view>
+
+	<view class="info-img" wx:if="{{paramInfo.image.length !== 0}}">
+		<image class="itemimg" src="{{paramInfo.image}}" alt=""></image>
+	</view>
+</view>

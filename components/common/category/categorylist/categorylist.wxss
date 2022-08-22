@@ -1,0 +1,16 @@
+/* components/common/category/categorylist/categorylist.wxss */
+.content-left{
+	box-sizing: border-box;
+	width: 150rpx;
+	height: 100vh;
+}
+.item{
+	background-color: #eee;
+	height: 130rpx;
+	text-align: center;
+	margin-bottom: 5rpx;
+}
+.actived .itemtitle{
+	border-right:solid 8rpx #f40;
+}
+
